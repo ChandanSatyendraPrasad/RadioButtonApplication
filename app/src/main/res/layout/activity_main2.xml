@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate  Tutorials"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+        <RadioButton
+            android:id="@+id/rexcellent1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radiobutton"
+            android:padding="10dp"
+            android:text="Excellent" />
+
+        <RadioButton
+            android:id="@+id/rverygood1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radiobutton"
+            android:padding="10dp"
+            android:text="Very Good" />
+
+        <RadioButton
+            android:id="@+id/rgood1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radiobutton"
+            android:padding="10dp"
+            android:text="Good" />
+
+        <RadioButton
+            android:id="@+id/ravg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radiobutton"
+            android:padding="10dp"
+            android:text="Average" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How is Shreks ?"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbest1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radiobutton"
+            android:padding="10dp"
+            android:text="Best" />
+
+        <RadioButton
+            android:id="@+id/rsupercool1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radiobutton"
+            android:padding="10dp"
+            android:text="Super Cool" />
+    </RadioGroup>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Test2"
+    android:onClick="test2"
+    />
+
+
+</LinearLayout>
